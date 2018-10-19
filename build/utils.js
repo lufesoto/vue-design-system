@@ -67,6 +67,7 @@ exports.cssLoaders = function(options) {
       resources: [
         path.resolve(__dirname, "../src/assets/tokens/tokens.scss"),
         path.resolve(__dirname, "../src/assets/tokens/tokens.map.scss"),
+        // path.resolve(__dirname, "../src/styles/bootstrap.scss"),
         path.resolve(__dirname, "../src/styles/styles.scss"),
       ],
     },
